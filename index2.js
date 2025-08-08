@@ -8,10 +8,7 @@ if (cart.length === 0) {
 } else {
   console.log("Cart items loaded:", cart);
   cart.forEach((item, index) => {
-    if (!item.id) {
-      console.warn(`Cart item at index ${index} has no ID and will be skipped.`);
-      return;
-    }
+
 
     item.quantity = item.quantity || 1;
 
