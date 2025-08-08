@@ -26,8 +26,8 @@ if (cart.length === 0) {
       <td class="list-brand">${item.brand || "N/A"}</td>
       <td class="list-dimensions">${item.dimensions ? `${item.dimensions.width || "N/A"} x ${item.dimensions.height || "N/A"} x ${item.dimensions.depth || "N/A"}` : "N/A"}</td>
       <td class="list-DP">${item.discountPercentage?.toFixed(1) || 0}%</td>
-      <td class="list-MC">${item.meta?.createdAt ? new Date(item.meta.createdAt).toLocaleDateString() : "N/A"}</td>
-      <td class="list-MU">${item.meta?.updatedAt ? new Date(item.meta.updatedAt).toLocaleDateString() : "N/A"}</td>
+      <td class="list-MC">${item.meta?.createdAt}</td>
+      <td class="list-MU">${item.meta?.updatedAt}</td>
       <td class="list-MB">${item.meta?.barcode || "N/A"}</td>
       <td class="list-MOQ">${item.minimumOrderQuantity || "N/A"}</td>
       <td class="list-rating">${item.rating?.toFixed(1) || "N/A"}</td>
