@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
   background: #020024;
   background: linear-gradient(
     90deg,
@@ -21,14 +22,12 @@ body {
   align-items: center;
 }
 
-
 .products {
   padding: 4rem 1.5rem;
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
 }
-
 
 .heading {
   color: #fff;
@@ -39,13 +38,11 @@ body {
   letter-spacing: -0.025em;
 }
 
-
 .table-wrapper {
   overflow-x: auto;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
-
 
 .cart-table {
   width: 100%;
@@ -53,9 +50,8 @@ body {
   background: #fff;
   border-radius: 16px;
   overflow: hidden;
-  min-width: 1000px; 
+  min-width: 1000px;
 }
-
 
 .cart-table th,
 .cart-table td {
@@ -65,7 +61,6 @@ body {
   color: #4b5563;
   border-bottom: 1px solid #e5e7eb;
 }
-
 
 .cart-table th {
   background: #f3f4f6;
@@ -78,11 +73,9 @@ body {
   z-index: 10;
 }
 
-
 .cart-table tr:last-child td {
   border-bottom: none;
 }
-
 
 .list-title {
   font-size: 1.25rem;
@@ -101,29 +94,28 @@ body {
 
 .list-category {
   font-weight: 600;
-  color: #22c55e; 
+  color: #22c55e;
 }
 
 .list-price {
   font-weight: 600;
-  color: #22c55e; 
+  color: #22c55e;
 }
 
 .list-rating {
   font-weight: 600;
-  color: #d69e2e; 
+  color: #d69e2e;
 }
 
 .list-DP {
   font-weight: 600;
-  color: #e53e3e; 
+  color: #e53e3e;
 }
 
 .list-stock.low {
   font-weight: 600;
-  color: #e53e3e; 
+  color: #e53e3e;
 }
-
 
 .list-img img {
   height: 50px;
@@ -137,7 +129,6 @@ body {
 .list-img img:hover {
   transform: scale(1.05);
 }
-
 
 .add-to-cart {
   display: inline-flex;
@@ -191,6 +182,3 @@ body {
 .view-cart:focus {
   box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3);
 }
-
-
-
